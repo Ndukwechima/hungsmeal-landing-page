@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FiPhone } from "react-icons/fi";
-// import HeroVid from "../assets/videos/hungs-hero-video.mp4"
+import HeroVid from "../assets/videos/hungs-hero-video.mp4"
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/public/videos/hungs-hero-video.mp4" // place your video in public/videos/
+        src={HeroVid}
         autoPlay
         loop
         muted

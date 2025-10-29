@@ -1,5 +1,4 @@
-import React from "react";
-
+import vid from '../assets/videos/hungs-hero-video.mp4'
 const TextVideoSection = () => {
   return (
     <section className="w-full py-12 px-6">
@@ -23,7 +22,7 @@ const TextVideoSection = () => {
         {/* Right Video */}
         <div className="w-full sm:w-[80%]">
           <video
-            src="/public/videos/hungs-hero-video.mp4" // <-- replace with your video path or URL
+            src={vid}
             className="w-full rounded-lg shadow-lg"
             controls
           />
